@@ -1,0 +1,56 @@
+@import "./import/images";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body{
+    background: #626262;
+}
+header{
+    display: flex;
+    background-color: #000000;
+    color: #ffffff;
+    margin: 1rem 2rem;
+    padding: 1rem;
+    justify-content: center;
+
+    ///elementos hijos de header
+
+@import "./import/_header.scss";
+
+}
+.tarjetas{
+    margin: 1rem 2rem;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    @media (max-width: 768px) {
+            grid-template-columns: 1fr;
+        }
+    
+
+    div{
+        gap: 1rem;
+        background-color: #343434;
+        color: #ffffff;
+        padding: 4rem;
+    }
+
+    div:hover{
+        background-color: #000000;
+    }
+    @import "./import/tarjetas"; //import del codigo scss perteneciente a las tarjetas
+}
+footer{
+    background: #000000;
+    color: #ffffff;
+    padding: 2rem;
+    text-align: center;
+
+}
+footer:hover{
+    background-color: #626262;
+}

@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+body {
+  background: #626262;
+}
+
+header {
+  display: flex;
+  background-color: #000000;
+  color: #ffffff;
+  margin: 1rem 2rem;
+  padding: 1rem;
+  justify-content: center;
+}
+header .menu {
+  display: flex;
+  gap: 3rem;
+}
+header .menu-item {
+  list-style-type: none;
+}
+header .menu-item:hover {
+  background-color: #626262;
+}
+
+.tarjetas {
+  margin: 1rem 2rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+@media (max-width: 768px) {
+  .tarjetas {
+    grid-template-columns: 1fr;
+  }
+}
+.tarjetas div {
+  gap: 1rem;
+  background-color: #343434;
+  color: #ffffff;
+  padding: 4rem;
+}
+.tarjetas div:hover {
+  background-color: #000000;
+}
+.tarjetas .tarjeta1 {
+  background-image: url("https://www.rionegro.com.ar/wp-content/uploads/2021/04/Imagen-angostura-aerea04-1.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: opacity 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+}
+.tarjetas .tarjeta1:hover {
+  opacity: 0.8;
+  transform: scale(1.3);
+}
+.tarjetas .tarjeta2 {
+  background-image: url("https://www.tripsavvy.com/thmb/5-vvsCLerjPpKzpzb6gf8dSqpgs=/2121x1414/filters:fill(auto,1)/GettyImages-622449006-3d9161af2c4047a2938e1ee4e14375aa.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: opacity 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+}
+.tarjetas .tarjeta2:hover {
+  opacity: 0.8;
+  transform: scale(1.3);
+}
+.tarjetas .tarjeta3 {
+  background-image: url("https://th.bing.com/th/id/R.ab5f98a48e2697ffc04160ad7ecff0e9?rik=Uj8YTN7nfHNrig&pid=ImgRaw&r=0");
+  background-size: cover;
+  background-position: center;
+  transition: opacity 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+}
+.tarjetas .tarjeta3:hover {
+  opacity: 0.8;
+  transform: scale(1.3);
+}
+.tarjetas .tarjeta4 {
+  background-image: url("https://th.bing.com/th/id/R.97196f2e78b5bae65ca1ec29631f4a26?rik=hSC0AOXWET3nqA&riu=http%3a%2f%2fwww.zicasso.com%2fsites%2fdefault%2ffiles%2fstyles%2foriginal_scaled_down%2fpublic%2fcleanup%2fsampletrip%2fArgentina-Mendoza-Vineyard-with-Mountain-View.jpg&ehk=QiQM06ZC1EY7t6poYpvbu0jrG4PoMey%2buEJVXp%2bGGR0%3d&risl=&pid=ImgRaw&r=0");
+  background-size: cover;
+  background-position: center;
+  transition: opacity 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+}
+.tarjetas .tarjeta4:hover {
+  opacity: 0.8;
+  transform: scale(1.3);
+}
+.tarjetas .tarjeta5 {
+  background-image: url("https://mejortour.com/wp-content/uploads/2020/10/59b631d5a827e51c3ec4809e7f6d89dc.jpg");
+  background-size: cover;
+  background-position: center;
+  transition: opacity 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+}
+.tarjetas .tarjeta5:hover {
+  opacity: 0.8;
+  transform: scale(1.3);
+}
+.tarjetas .tarjeta6 {
+  background-image: url("https://th.bing.com/th/id/R.97f50a2aeda9219652312874c0d87f4a?rik=u3xNX9Jmhaolsg&pid=ImgRaw&r=0");
+  background-size: cover;
+  background-position: center;
+  transition: opacity 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+}
+.tarjetas .tarjeta6:hover {
+  opacity: 0.8;
+  transform: scale(1.3);
+}
+
+footer {
+  background: #000000;
+  color: #ffffff;
+  padding: 2rem;
+  text-align: center;
+}
+
+footer:hover {
+  background-color: #626262;
+}
+
+/*# sourceMappingURL=style.css.map */
